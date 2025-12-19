@@ -10,3 +10,5 @@ with mlflow.start_run():
     # ... (kode pelatihan model Anda)
     mlflow.sklearn.autolog()
     print("Re-training model selesai!")
+
+# Triggering GitHub Actions re-run
